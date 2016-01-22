@@ -1,11 +1,22 @@
 body {
-    background: #f0f0f0;
+    background: aliceblue;
+}
+
+h2 {
+    display: block;
+    font-size: 20px;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    text-align: center
 }
 
 h3 {
     font-size: 90px;
     text-align: center;
-    color: darkgray
+    color: black;
 }
 
 p {
@@ -21,7 +32,7 @@ p {
 div {
     text-align: center;
     font-size: 40px;
-    background-color: chartreuse;
+    background-color: aliceblue;
 }
 
 .large-6 {}
@@ -34,3 +45,7 @@ div {
 td {}
 
 table {}
+
+.third {
+    background-image: url(../frontend-exercise2/assets/assets/s_image.jpg);
+}
